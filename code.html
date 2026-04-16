@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web</title>
+</head>
+<!--顏色，Flexbox排版，水平置中，垂直置中，滿版螢幕，消除邊界-->
+<body   style="background-color: lightblue;display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+   <!--顏色，卡片寬度，留白，圓角，文字置中-->
+   <div style="background-color: white; 
+                width: 300px; 
+                padding:40px; 
+                border-radius: 50px;  
+                text-align: center;">
+        <!--顏色，文字大小-->
+        <h1 style="color: #2c3e50; font-size: 24px;">Hsiao Chun Cheng</h1>
+        <!--圖片，固定尺寸，填滿正方形，變圓形，邊框跟顏色-->
+        <img src="image.png" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 4px solid #f8f9fa;">
+        <!--大小，行高-->
+        <p style="color: #7f8c8d; font-size: 16px; line-height: 1.5;">
+            I am a high school student who is interested in computer science,<br>this is my first VS Code web project.。
+        </p>
+        <!--新分頁，按鈕排版，視覺顏色，上下10px，左右25px，膠囊狀，粗體字-->
+        <a href="https://canva.link/uoafkrohcfhcd88" target="_blank"style="display:inline-block; background-color: #3498db; color: white; padding: 10px 25px; text-decoration: none; border-radius: 50px; font-weight: bold; margin-top: 15px;">
+            Browse my works
+        </a>
+        <!--清除預設，新線條，顏色，間距-->
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
+<!--顏色，大小，間距 skills-->
+<h3 style="color: #2c3e50; font-size: 18px; margin-bottom: 15px;">Skills</h3>
+<!--彈性布局，自動換行，水平置中，間距-->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+    <!--外框字體顏色，標籤大小，圓角，字體大小 粗體-->
+    <span style="background: #e1f5fe; color: #01579b; padding: 5px 12px; border-radius: 15px; font-size: 14px; font-weight: bold;">Basic HTML</span>
+    <span style="background: #e1f5fe; color: #01579b; padding: 5px 12px; border-radius: 15px; font-size: 14px; font-weight: bold;">Basic Css</span>
+    <span style="background: #e1f5fe; color: #01579b; padding: 5px 12px; border-radius: 15px; font-size: 14px; font-weight: bold;">VS Code</span>
+</div>
+
+          </div>
+</body>
+</html>
