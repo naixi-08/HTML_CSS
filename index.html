@@ -1,91 +1,88 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio of applications for information technology</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My portfolio of applications for information technology</title>
+            <style>
+                body{
+                    font-family:"Comic Sans MS",sans-serif;
+                    background-color: white;
+                    line-height: 1.5;
+                    margin: 0;
+                    color: #333;
+                }
+                header{
+                    background-color: #1a2a6c;
+                    color: white;
+                    text-align: center;
+                    padding:50px 20px
+                }
+                main{
+                    max-width: 800px;
+                    margin: 30px auto;
+                    padding: 0 20px;
+                }
+                section{
+                    background-color: white;
+                    margin-bottom: 25px;
+                    padding: 25px;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                }
+                h2{
+                    color: darkred;
+                    border-bottom: 3px solid #fdbb2d;
+                    display: inline-block;
+                    margin-bottom: 15px;
+                }
+                .tag{
+                    display: inline-block;
+                    background-color: #e0e7ff;
+                    color: #3730a3;
+                    padding: 6px 16px;
+                    margin: 5px;
+                    border-radius: 50px;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+                .project-card{
+                    border-left: 6px solid #fdbb2d;
+                    padding-left: 20px;
+                    margin-top: 15px;
+                }
+            </style>
+    </head>
+    <body> 
+        <header>
+            <h1>Hsiao Chun Chen's Computer Science Learning Journey</h1>
+            <p>VS Code Web Development Practice Projects</p>
+        </header>
 
-    <style>
-        body {
-            font-family: "Microsoft JhengHei", Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            background-color: #f4f7f6;
-            color: #333;
-        }
-        header {
-            background-color: #1a2a6c;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        section {
-            background: white;
-            margin-bottom: 25px;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #b21f1f;
-            border-bottom: 3px solid #fdbb2d;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        .tag {
-            display: inline-block;
-            background: #e0e7ff;
-            color: #3730a3;
-            padding: 6px 16px;
-            margin: 5px;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 0.85rem;
-        }
-        .project-card {
-            border-left: 6px solid #fdbb2d;
-            padding-left: 20px;
-            margin-top: 15px;
-        }
-    </style>
-</head>
-<body>
+        <main>
+            <section>
+                <h2>About me</h2>
+                <p>Hello! I'm a high school student passionate about information and electrical engineering. I enjoy creating web pages using VS Code, transforming logical ideas into visual representations. I'm currently learning web architecture and typography.</p>
+            </section>
 
-    <header>
-        <h1>[你的姓名] 的資電學習歷程</h1>
-        <p>VS Code 網頁開發實作作品</p>
-    </header>
+            <section>
+                <h2>Skill Tree</h2>
+                <div>
+                    <span class="tag">HTML Architecture</span>
+                    <span class="tag">CSS Composing</span>
+                    <span class="tag">VScode Operating</span>
+                    <span class="tag">Self-directed learning</span>
+                </div>
+            </section>
 
-    <main>
-        <section>
-            <h2>關於我</h2>
-            <p>你好！我是一名對資訊工程充滿熱誠的高中生。我喜歡透過 VS Code 實作網頁，將邏輯想法轉化為視覺化的呈現。我目前正在學習網頁的基礎架構與排版設計。</p>
-        </section>
-
-        <section>
-            <h2>技能樹</h2>
-            <div>
-                <span class="tag">HTML 結構</span>
-                <span class="tag">CSS 排版設計</span>
-                <span class="tag">VS Code 操作</span>
-                <span class="tag">自主學習</span>
-            </div>
-        </section>
-
-        <section>
-            <h2>專案實作紀錄</h2>
-            <div class="project-card">
-                <h3>個人專屬 Resume 網頁</h3>
-                <p><strong>技術細節：</strong> 使用 HTML5 語義化標籤與 CSS3 內部樣式表進行整合開發。</p>
-                <p><strong>學習重點：</strong> 掌握盒模型 (Box Model) 與區塊層級元素的應用，並練習如何在一個檔案中管理所有程式碼。</p>
-            </div>
-        </section>
-    </main>
-
-</body>
+            <section>
+                <h2>Project Implementation Record</h2>
+                <div class="project-card">
+                    <h3>Personalized Resume Webpage</h3>
+                    <p><strong>Technical details:</strong>Use HTML semantic tags and CSS internal stylesheets for integrated development.</p>
+                    <p><strong>Learning point:</strong>Master the application of the Box Model and block-level elements, and practice how to manage all code in a single file.</p>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
